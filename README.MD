@@ -20,7 +20,7 @@ This is a simple food delivery app built with Vanillas JavaScript, HTML, and CSS
 To run the app locally, follow these steps:
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sachinkumar2245/food-delivery
    cd food-delivery
    ```
 2. Open `index.html` in your web browser.
