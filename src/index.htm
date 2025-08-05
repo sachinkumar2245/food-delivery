@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Food delivery app - order your favorite meals online.">
+  <title>Food Delivery App</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+</head>
+
+<body>
+
+  <!-- ======= HEADER / NAVBAR ======= -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="#" class="logo">Logo</a>
+        <button class="location-btn">Deliver to: <span id="location">Select Location</span></button>
+        <div class="discount-bar">Coupons / Discounts</div>
+      </div>
+      <div class="nav-right">
+        <input type="text" placeholder="Search food or restaurants" class="search-bar">
+        <button class="offer-btn">Offer</button>
+        <button class="help-btn">Help</button>
+        <button class="signin-btn">Sign In</button>
+        <button class="cart-btn">Cart</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ======= HERO CAROUSEL ======= -->
+  <section class="hero-carousel">
+    <div class="carousel-container">
+      <!-- Self-sliding images will be added dynamically -->
+      <div class="carousel-slide"><img src="" alt="Food Image"></div>
+      <div class="carousel-slide">Carousel Image 2</div>
+      <div class="carousel-slide">Carousel Image 3</div>
+    </div>
+  </section>
+
+  <!-- ======= CATEGORY FILTERS ======= -->
+  <section class="filters">
+    <div class="filter-options">
+      <label for="food-type">Choice of Food:</label>
+      <select id="food-type">
+        <option value="all">All</option>
+        <option value="veg">Veg</option>
+        <option value="non-veg">Non-Veg</option>
+      </select>
+
+      <label for="price-sort">Sort by Price:</label>
+      <select id="price-sort">
+        <option value="low-high">Low to High</option>
+        <option value="high-low">High to Low</option>
+      </select>
+
+      <button class="filter-icon">Filters</button>
+    </div>
+  </section>
+
+  <!-- ======= FOOD CATEGORIES ======= -->
+  <main>
+    <aside class="categories">
+      <h3>Categories</h3>
+      <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Indian</li>
+        <li>Chinese</li>
+        <li>Desserts</li>
+      </ul>
+    </aside>
+
+    <section class="food-grid">
+      <article class="food-card">Food Item 1</article>
+      <article class="food-card">Food Item 2</article>
+      <article class="food-card">Food Item 3</article>
+      <article class="food-card">Food Item 4</article>
+    </section>
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    <p>&copy; 2025 Food Delivery App. All rights reserved.</p>
+  </footer>
+
+
+
+</body>
+<script type="module" src="./js/main.js"></script>
+<script type="module" src="./js/carousel.js"></script>
+<script type="module" src="./js/filters.js"></script>
+<script type="module" src="./js/cart.js"></script>
+<script type="module" src="./js/components/cartModal.js"></script>
+<script type="module" src="./js/dom.js"></script>
+<script type="module" src="./js/api.js"></script>
+<script type="module" src="./js/utils.js"></script>
+<script type="module" src="./js/components/navbar.js"></script>
+<script type="module" src="./js/components/modal.js"></script>
+
+</html>

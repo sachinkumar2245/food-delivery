@@ -1,0 +1,88 @@
+/* ======= Responsive Design for Mobile Devices ======= */
+
+@media (max-width: 1024px) {
+  .search-bar {
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Navbar adjustments */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-right {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .discount-bar {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Filters section */
+  .filter-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .filter-options select,
+  .filter-options button {
+    width: 100%;
+  }
+
+  /* Main content stack */
+  main {
+    flex-direction: column;
+  }
+
+  .categories {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .food-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 8px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .navbar button {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+
+  .hero-carousel {
+    font-size: 18px;
+    height: 180px;
+  }
+
+  .food-card {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  .food-grid {
+    grid-template-columns: 1fr;
+  }
+}
